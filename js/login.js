@@ -13,11 +13,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     //verify email,pass
 
     if (email == 'rafid@gmail.com' && password == 'secretcse') {
-    console.log('valid user');
-}
+    window.location.href = 'bank.html';
+    }
     else {
-    console.log('Invalid user');
+    alert('Invalid user');
 }
-
-
 })
